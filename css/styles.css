@@ -1,0 +1,67 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+}
+
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.editor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* margin: 40px auto; */
+.textblock {
+    margin: 0 auto;
+    width: 400px;
+    height: 300px;
+    border: 1px solid blue;
+    padding: 10px;
+}
+
+.buttons {
+    width: 400px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.btn {
+    padding: 15px 20px;
+    background-color: darkred;
+    color: white;
+    font-weight: bold;
+}
+
+.disabledEditBtn {
+    background-color: darkgray;
+}
+
+.disabledSaveBtn {
+    background-color: darkblue;
+}
+
+.activeSaveBtn {
+    padding: 15px 20px;
+    background-color: darkblue;
+    color: white;
+    font-weight: bold;
+}
+
+.activeCancelBtn {
+    padding: 15px 20px;
+    background-color: darkblue;
+    color: white;
+    font-weight: bold;
+}
